@@ -8,7 +8,7 @@ DB_PATH = Path(__file__).with_name("desperdicio_zero.db")
 
 # Etapas transcritas do fluxograma enviado.
 ETAPAS_INICIAIS = [
-    ("Coleta de Dados", "Etapa inicial", 7),
+    ("Coleta de Dados", "Finalizado", 7),
     ("Analisar Fornecedores", "Fornecedores e aquisição", 2),
     ("Consulta Nutricional e Estudo de Safras", "Fornecedores e aquisição", 5),
     ("Montagem de Catálogo e Cronograma de Aquisições Alimentares", "Fornecedores e aquisição", 2),
